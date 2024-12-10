@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>Chat-App</nav>
+
+    <div class="container">
+        <div id="left-part">
+            <div class="message-box">
+                <!-- <div class="message left">
+                    <p class="left displayName">Vijay</p>
+                    Hey how are you?
+                </div> -->
+                <!-- <div class="message right">Hi i am fine</div>  -->
+    
+                <div id="userName" class="center">
+                    <!-- Vijay joined the chat! -->
+                </div>
+                
+            </div>
+            <div id="input-box">
+                <input id="message-input" class="input" type="text" placeholder="Enter your message">
+                <button id="sendBtn" class="input">Send</button>
+            </div>
+        </div>
+
+        <div id="right-part">
+            <h1 id="user-heading">Active Users</h1>
+            <!-- <div>
+                <img src="https://th.bing.com/th/id/OIP.1oYMAvXA8eaaRvWbCGgjhwHaHa?rs=1&pid=ImgDetMain" alt="activelogo" srcset="" width="25px"><p></p>
+            </div> -->
+        </div>
+
+    </div>
+
+    <script src="http://localhost:7001/socket.io/socket.io.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 45px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+#left-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#right-part{
+    border: 1px solid grey;
+    height: 50vh;
+    width: 20vw;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 3px 0px grey;
+}
+
+#user-heading{
+    color: #e4a628;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.message-box {
+    background-image: url("https://cdn.wallpapersafari.com/28/83/ls0Ajp.jpg");
+    background-blend-mode: hue;
+    /* border: 1px solid green; */
+    width: 40vw;
+    height: 70vh;
+    border-radius: 5px;
+    border-bottom: none;
+    padding-top: 2rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message {
+    padding: 5px;
+    margin: 0px 5px 5px 5px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.right {
+    align-self: flex-end;
+
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.center {
+    align-self: center;
+    margin: 5px;
+    /* color: white; */
+}
+
+.displayName {
+    font-size: 13px;
+    margin-bottom: 2px;
+    color: #484848;
+}
+
+#input-box {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sendBtn {
+    width: 4rem;
+    height: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message-input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.input {
+    border: 1px solid grey;
+    outline: none;
+}
+
+.nameStyle{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    color: #545353;
+}
+
+.timestamp{
+    padding-left: 10px;
+    font-size: 13px;
+    margin-top: 5px;
+}
